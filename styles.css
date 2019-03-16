@@ -17,7 +17,7 @@ body {
 
 .container {
 	width: 60%;
-	background-color: bisque;
+	background-color: #eeeeee;
 	color: #252424;
 	margin: 10px auto;
 }
@@ -44,9 +44,20 @@ nav ul {
 
 nav ul li {
 	display: initial;
-	color: bisque;
+
 	padding-left: 10px;
 	font-size: 14px;
+}
+
+nav ul li a {
+	color: #eeeeee;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #0f0f0f;
+	text-decoration: underline;
+	font-weight: bold;
 }
 
 #dark {
@@ -161,8 +172,8 @@ footer {
 }
 
 footer p {
-	padding: 5px 15px;
+	padding: 6px 15px;
 	font-size: 80%;
 	font-weight: bold;
-	color: blanchedalmond;
+	color: #eeeeee;
 }
