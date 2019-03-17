@@ -1,5 +1,7 @@
+/* Import fonts */
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
+/* Setup universals */
 * {
 	margin: 0;
 	padding: 0;
@@ -7,6 +9,7 @@
 	font-family: "Montserrat", sans-serif;
 }
 
+/* Setup the body to include the background image */
 body {
 	background-image: url(./images/dark-wood.jpg);
 	background-size: cover;
@@ -15,6 +18,7 @@ body {
 	height: 100%;
 }
 
+/* Setup main container at 60% of the browser window and center */
 .container {
 	width: 60%;
 	background-color: #eeeeee;
@@ -30,6 +34,7 @@ header img {
 	width: 100%;
 }
 
+/* Position the navbar within the header */
 nav {
 	position: absolute;
 	top: 112px;
@@ -44,7 +49,6 @@ nav ul {
 
 nav ul li {
 	display: initial;
-
 	padding-left: 10px;
 	font-size: 14px;
 }
@@ -54,23 +58,27 @@ nav ul li a {
 	text-decoration: none;
 }
 
+/* Add hover effects to navbar links */
 nav ul li a:hover {
 	color: #0f0f0f;
 	text-decoration: underline;
 	font-weight: bold;
 }
 
+/* Home navbar active link */
 #dark {
 	color: #0f0f0f;
 	font-weight: bold;
 }
 
+/* Start of formatting of  the first leftmost section */
 #section1 {
 	display: inline-block;
 	width: 39.1%;
 	padding: 40px 0 40px 20px;
 }
 
+/* Add a border around the image and caption */
 figure {
 	border: 1px solid #e0dede;
 }
@@ -79,16 +87,21 @@ figure {
 	height: 30px;
 }
 
+/* Add padding around the image */
 figure img {
 	padding: 2px 0 3px 2px;
 }
 
+/* Format and position the image caption */
 figcaption {
 	font-size: 90%;
 	font-weight: bold;
 	padding: 0 0 3px 3px;
 }
 
+/* End of first section formatting  */
+
+/* Start of format for the middle section */
 #section2 {
 	position: absolute;
 	top: 22.8%;
@@ -129,6 +142,9 @@ figcaption {
 	padding-left: 20px;
 }
 
+/* End of middle section formatting */
+
+/* Start of last section formatting */
 #section3 {
 	position: absolute;
 	top: 22.9%;
@@ -167,6 +183,9 @@ address {
 	line-height: 1.5em;
 	padding-top: 7%;
 }
+/* End of last section formatting */
+
+/* Footer formatting */
 footer {
 	background-color: #8b8585;
 }
