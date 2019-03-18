@@ -3,196 +3,197 @@
 
 /* Setup universals */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Setup the body to include the background image */
 body {
-	background-image: url(./images/dark-wood.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 100%;
+  background-image: url(./images/dark-wood.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 }
 
 /* Setup main container at 60% of the browser window and center */
 .container {
-	width: 60%;
-	background-color: #eeeeee;
-	color: #252424;
-	margin: 10px auto;
+  width: 60%;
+  background-color: #eeeeee;
+  color: #252424;
+  margin: 10px auto;
 }
 
 header {
-	position: relative;
+  display: block;
+  position: relative;
 }
 
 header img {
-	width: 100%;
+  width: 100%;
 }
 
 /* Position the navbar within the header */
 nav {
-	position: absolute;
-	top: 112px;
-	width: 100%;
-	background-color: #8b8585;
+  position: absolute;
+  top: 106px;
+  width: 100%;
+  background-color: #8b8585;
 }
 
 nav ul {
-	text-align: left;
-	padding: 5px 14px;
+  text-align: left;
+  padding: 5px 14px;
 }
 
 nav ul li {
-	display: initial;
-	padding-left: 10px;
-	font-size: 14px;
+  display: initial;
+  padding-left: 10px;
+  font-size: 14px;
 }
 
 nav ul li a {
-	color: #eeeeee;
-	text-decoration: none;
+  color: #eeeeee;
+  text-decoration: none;
 }
 
 /* Add hover effects to navbar links */
 nav ul li a:hover {
-	color: #0f0f0f;
-	text-decoration: underline;
-	font-weight: bold;
+  color: #0f0f0f;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 /* Home navbar active link */
 #dark {
-	color: #0f0f0f;
-	font-weight: bold;
+  color: #0f0f0f;
+  font-weight: bold;
 }
 
 /* Start of formatting of  the first leftmost section */
 #section1 {
-	display: inline-block;
-	width: 39.1%;
-	padding: 40px 0 40px 20px;
+  display: inline-block;
+  width: 41%;
+  padding: 40px 0 40px 20px;
 }
 
 /* Add a border around the image and caption */
 figure {
-	border: 1px solid #e0dede;
+  border: 1px solid #e0dede;
 }
 
 #separator {
-	height: 30px;
+  height: 30px;
 }
 
 /* Add padding around the image */
 figure img {
-	padding: 2px 0 3px 2px;
+  padding: 2px 0 3px 2px;
 }
 
 /* Format and position the image caption */
 figcaption {
-	font-size: 90%;
-	font-weight: bold;
-	padding: 0 0 3px 3px;
+  font-size: 90%;
+  font-weight: bold;
+  padding: 0 0 3px 3px;
 }
 
 /* End of first section formatting  */
 
 /* Start of format for the middle section */
 #section2 {
-	position: absolute;
-	top: 22.8%;
-	display: inline-block;
-	width: 20.5%;
-	padding: 0 0 4px 20px;
-	border-right: 1px solid #e0dede;
+  position: absolute;
+  top: 21.6%;
+  display: inline-block;
+  width: 20.5%;
+  padding: 0 4px 4px 20px;
+  border-right: 1px solid #e0dede;
 }
 
 .text-top h3,
 .text-bottom h3 {
-	padding-top: 16%;
-	color: #0f0f0f;
+  padding-top: 16%;
+  color: #0f0f0f;
 }
 
 .text-top h5,
 .text-bottom h5 {
-	padding-top: 2px;
-	color: #ec3170;
+  padding-top: 2px;
+  color: #ec3170;
 }
 
 .text-top p,
 .text-bottom p {
-	padding-top: 15px;
-	font-size: 70%;
-	font-weight: bold;
-	color: #0f0f0f;
-	line-height: 1.5em;
+  padding-top: 15px;
+  font-size: 70%;
+  font-weight: bold;
+  color: #0f0f0f;
+  line-height: 1.5em;
 }
 
 .text-bottom {
-	padding-top: 40%;
+  padding-top: 40%;
 }
 
 #filler {
-	width: inherit;
-	height: 133px;
-	padding-left: 20px;
+  width: inherit;
+  height: 145px;
+  padding-left: 20px;
 }
 
 /* End of middle section formatting */
 
 /* Start of last section formatting */
 #section3 {
-	position: absolute;
-	top: 22.9%;
-	display: inline-block;
-	width: 34%;
-	padding: 0 0 4px 300px;
+  position: absolute;
+  top: 22.9%;
+  display: inline-block;
+  width: 34%;
+  padding: 0 0 4px 300px;
 }
 
 .text-top2 h3,
 .text-bottom2 h3 {
-	padding-top: 23.5%;
-	color: #ec3170;
+  padding-top: 23.5%;
+  color: #ec3170;
 }
 
 .text-top2 h6:first-of-type {
-	padding-top: 20%;
+  padding-top: 20%;
 }
 
 .text-top2 h6,
 .text-bottom2 h6 {
-	padding-top: 10%;
-	padding-bottom: 4%;
-	color: #ec3170;
-	border-bottom: 1px solid #e0dede;
+  padding-top: 10%;
+  padding-bottom: 4%;
+  color: #ec3170;
+  border-bottom: 1px solid #e0dede;
 }
 
 .text-bottom2 {
-	padding-top: 15%;
+  padding-top: 15%;
 }
 
 address {
-	width: 100px;
-	color: #0f0f0f;
-	font-size: 70%;
-	font-weight: bold;
-	line-height: 1.5em;
-	padding-top: 7%;
+  width: 100px;
+  color: #0f0f0f;
+  font-size: 70%;
+  font-weight: bold;
+  line-height: 1.5em;
+  padding-top: 7%;
 }
 /* End of last section formatting */
 
 /* Footer formatting */
 footer {
-	background-color: #8b8585;
+  background-color: #8b8585;
 }
 
 footer p {
-	padding: 6px 15px;
-	font-size: 80%;
-	font-weight: bold;
-	color: #eeeeee;
+  padding: 6px 15px;
+  font-size: 80%;
+  font-weight: bold;
+  color: #eeeeee;
 }
