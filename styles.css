@@ -27,7 +27,6 @@ body {
 }
 
 header {
-  display: block;
   position: relative;
 }
 
@@ -38,7 +37,7 @@ header img {
 /* Position the navbar within the header */
 nav {
   position: absolute;
-  top: 106px;
+  top: 112px;
   width: 100%;
   background-color: #8b8585;
 }
@@ -75,7 +74,7 @@ nav ul li a:hover {
 /* Start of formatting of  the first leftmost section */
 #section1 {
   display: inline-block;
-  width: 41%;
+  width: 38.7%;
   padding: 40px 0 40px 20px;
 }
 
@@ -105,10 +104,10 @@ figcaption {
 /* Start of format for the middle section */
 #section2 {
   position: absolute;
-  top: 21.6%;
+  top: 19.6%;
   display: inline-block;
   width: 20.5%;
-  padding: 0 4px 4px 20px;
+  padding: 0 0 4px 20px;
   border-right: 1px solid #e0dede;
 }
 
@@ -139,7 +138,7 @@ figcaption {
 
 #filler {
   width: inherit;
-  height: 145px;
+  height: 132px;
   padding-left: 20px;
 }
 
